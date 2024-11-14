@@ -1,0 +1,162 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  border: border-box;
+}
+
+body {
+  font-family: "Sour Gummy", sans-serif;
+  background-color: rgb(241, 229, 183);
+
+
+}
+
+.btnC {
+  background-color: #D62300;
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+  padding: 15px 30px;
+  border-radius: 25px;
+  margin-left: 10px;
+  border: none;
+}
+
+
+
+
+
+.navItmes{
+
+  height: 60px;
+  display: flex;
+  border-bottom: 2px solid rgba(128, 128, 128, 0.513);
+  padding-right: 10%;
+  padding-left: 10%;
+
+}
+
+.nav1 {
+  display: flex;
+  align-items: center;
+  width: 60%;
+  justify-content: space-between;
+}
+
+.menu {
+  font-size: 24px;
+  color: #502314;
+}
+
+.logo{
+  font-size: 25px;
+  color: #502314;
+  font-weight: 600;
+}
+
+.nav2{
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  width: 40%;
+}
+
+.icone{
+  font-size: 24px;
+  color: #502314;
+  padding: 6px;
+}
+
+.cart_btn {
+  background-color: #D62300;
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+  padding: 15px 30px;
+  border-radius: 25px;
+  margin-left: 10px;
+  border: none;
+}
+
+.cart_logo{
+  font-size: 16px;
+  margin-right: 10px;
+}
+.cart_text{
+  font-size: 20px;
+}
+
+
+
+/* hero page start ,,,,,,,,,,,,,,,, */
+
+.herosec {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero_text{
+  margin-right: 50px;
+}
+
+
+.hero_text h2{
+  font-size: 70px;
+  color: #502314;
+}
+
+.hero_btn{
+  padding: 14px 16px;
+  width: 300px;
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero_btn:hover{
+  background-color: #ffffff;
+  color: #502314;
+  transition: 0.5s;
+}
+
+
+.pg2nd{
+  display: flex;
+  gap: 20px;
+  margin: 0px 30px;
+}
+
+.pg2ndCard {
+  background-color: #ffffff;
+  height: 100%;
+  width: 540px;
+  border-radius: 10px;
+}
+
+.pg2ndImg{
+  width: 440px;
+}
+
+.pg2ndCard h3{
+  font-size: 30px;
+  color: #502314;
+  margin-bottom: 8px;
+}
+
+.pg2ndCard p{
+  font-size: 13px;
+  color: #502314;
+  padding-right: 25px;
+}
+
+.btn_2nd{
+  font-size: 14px;
+  padding: 8px 16px;
+  border-radius: 20px;
+  align-items: self-end;
+}
